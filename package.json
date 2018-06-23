@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "dev": "npm run client:server && npm run server:dev",
-    "client:dev": "webpack --mode development",
+    "clear": "rimraf dist",
+    "dev": "",
+    "client:dev": "npm run clear && webpack --mode development",
     "client:prod": "webpack --mode production",
     "client:server": "webpack --mode development --env server",
     "server:dev": "gulp",
