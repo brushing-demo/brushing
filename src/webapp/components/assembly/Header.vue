@@ -12,22 +12,25 @@
                         background-color="#303133"
                         text-color="#fff"
                         active-text-color="#ffd04b">
-                    <el-menu-item index="1">
-                        <router-link to="/">首页</router-link>
-                    </el-menu-item>
-                    <el-menu-item index="2">
-                        <router-link to="/brushingList">答题中心</router-link>
-
-                    </el-menu-item>
+                    <router-link to="/">
+                        <el-menu-item index="1">
+                            首页
+                        </el-menu-item>
+                    </router-link>
+                    <router-link to="/brushingList"> 
+                        <el-menu-item index="2">答题中心</el-menu-item>
+                    </router-link>
                     <!--<el-submenu index="2">
                         <template slot="title">我的工作台</template>
                         <el-menu-item index="2-1">选项1</el-menu-item>
                         <el-menu-item index="2-2">选项2</el-menu-item>
                         <el-menu-item index="2-3">选项3</el-menu-item>
                     </el-submenu>-->
-                    <el-menu-item index="3">
-                        <router-link to="/addTopics">增加题目</router-link>
-                    </el-menu-item>
+                    <router-link to="/addTopics">
+                        <el-menu-item index="3">
+                            增加题目
+                        </el-menu-item>
+                    </router-link>
                 </el-menu>
             </el-col>
             <el-col :xs="4" :sm="6" :md="4"><div class="grid-content bg-purple-light"></div></el-col>
@@ -73,5 +76,8 @@
     }
     .el-menu--horizontal>.el-menu-item a, .el-menu--horizontal>.el-menu-item a:hover{
         text-decoration: none;
+    }
+    a {
+        display: inline-block;
     }
 </style>
