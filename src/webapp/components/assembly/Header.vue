@@ -25,7 +25,9 @@
                         <el-menu-item index="2-2">选项2</el-menu-item>
                         <el-menu-item index="2-3">选项3</el-menu-item>
                     </el-submenu>-->
-                    <el-menu-item index="3" disabled>消息中心</el-menu-item>
+                    <el-menu-item index="3">
+                        <router-link to="/addTopics">增加题目</router-link>
+                    </el-menu-item>
                 </el-menu>
             </el-col>
             <el-col :xs="4" :sm="6" :md="4"><div class="grid-content bg-purple-light"></div></el-col>
@@ -68,5 +70,8 @@
     }
     .el-submenu{
         width:160px;
+    }
+    .el-menu--horizontal>.el-menu-item a, .el-menu--horizontal>.el-menu-item a:hover{
+        text-decoration: none;
     }
 </style>

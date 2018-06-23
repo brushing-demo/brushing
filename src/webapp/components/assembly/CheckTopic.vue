@@ -1,11 +1,13 @@
 <template>
     <div class="radio-topic">
-        <el-radio-group v-model="form.resource">
-            <el-radio label="线下场地免费"></el-radio>
-            <el-radio label="线下场地免费1"></el-radio>
-            <el-radio label="线下场地免费2"></el-radio>
-            <el-radio label="线下场地免费3"></el-radio>
-        </el-radio-group>
+        <el-form-item prop="resource">
+            <el-checkbox-group v-model="form.type">
+                <el-checkbox label="美食/餐厅线上活动" name="type"></el-checkbox>
+                <el-checkbox label="地推活动" name="type"></el-checkbox>
+                <el-checkbox label="线下主题活动" name="type"></el-checkbox>
+                <el-checkbox label="单纯品牌曝光" name="type"></el-checkbox>
+            </el-checkbox-group>
+        </el-form-item>
     </div>
 </template>
 <script>
@@ -44,22 +46,22 @@
   }
 </script>
 <style>
-    .el-radio + .el-radio {
+    .el-checkbox + .el-checkbox {
         margin-left: 0;
     }
 
-    .el-radio {
+    .el-checkbox {
         border: 1px solid #ccc;
         width: 100%;
-        padding: 15px 0;
+        padding: 5px 0;
         margin: 10px 0;
     }
 
-    .el-radio-group {
+    .el-checkbox-group {
         width: 100%;
     }
 
-    .el-radio__input {
+    .el-checkbox__input {
         margin-left: 15px;
     }
 </style>
