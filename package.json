@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "dev": "npm run client:server && npm run server:dev",
+    "dev": "npm run client:dev && npm run server:dev ",
     "client:dev": "webpack --mode development",
     "client:prod": "webpack --mode production",
     "client:server": "webpack --mode development --env server",

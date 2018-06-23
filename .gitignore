@@ -11,3 +11,4 @@ build/
 *.log
 *.zip
 *.tar.gz
+*.idea
