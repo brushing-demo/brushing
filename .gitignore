@@ -4,6 +4,8 @@ node_modules/
 package-lock.json
 dist/
 logs/
+.jshintrc
+.vscode/
 #.DS_Store
 *.DS_Store
 # Compiled
