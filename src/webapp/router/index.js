@@ -1,35 +1,35 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '../components/HelloWorld.vue'
-import About from '../components/About.vue'
-import Topics from '../components/Topics.vue'
-import Test from '../components/test/Test.vue'
+import Vue from "vue";
+import Router from "vue-router";
+import HelloWorld from "../components/HelloWorld.vue";
+import About from "../components/About.vue";
+import Topics from "../components/Topics.vue";
+import Test from "../components/Test/Test.vue";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export function createRouter() {
   const router = new Router({
-    mode: 'history',
+    mode: "history",
     base: __dirname,
     routes: [
       {
-        path: '/',
-        name: 'HelloWorld',
+        path: "/",
+        name: "HelloWorld",
         component: HelloWorld
       },
       {
-        path: '/about',
-        name: 'About',
+        path: "/about",
+        name: "About",
         component: About
       },
       {
-        path: '/topics',
-        name: 'Topics',
-        component: () => Topics
+        path: "/topics",
+        name: "Topics",
+        component: () => import("../components/Topics.vue")
       },
       {
-        path: '/test',
-        component: () => import('../components/test/Test.vue')
+        path: "/test",
+        component: () => import("../components/Test/Test.vue")
       }
     ]
   });

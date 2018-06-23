@@ -8,11 +8,6 @@ export default class IndexService {
   init(ctx) {
        	
   }
-
-  	getData(){
-  		result = await axios(url);
-  		return result;
-  	}
 }
 
 

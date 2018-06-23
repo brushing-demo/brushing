@@ -9,7 +9,6 @@ import LRU from 'lru-cache';
 @route('/test')
 @route('/about')
 @route('/topics')
-
 export default class IndexController {
 
   constructor({indexService}) {
@@ -55,12 +54,6 @@ export default class IndexController {
       });
     }
     await createSsrStreamPromise(context);
-  }
-
-  @route('/getUsetData')
-  async getUsetData({indexService}){
-      result = await indexService.getData();
-      return result;
   }
 
 }
