@@ -2,7 +2,7 @@ import Koa from "koa";
 import serve from "koa-static";
 import log4js from 'log4js';
 import configure from "./config";
-import co from 'co';
+import koaBody from "koa-body";
 import errorHandler from "./middwares/errorHandler";
 const { createContainer, Lifetime } = require('awilix');
 const { loadControllers, scopePerRequest } = require('awilix-koa');
@@ -11,6 +11,8 @@ const app = new Koa();
 const container = createContainer();
 //每一次的请求都是一个 new model
 app.use(scopePerRequest(container));
+
+app.use(koaBody());
 //装载所有的models 并将services代码注入到controllers
 container.loadModules([__dirname + '/services/*.js'], {
   formatName: 'camelCase',

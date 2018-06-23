@@ -25,11 +25,11 @@ export function createRouter() {
       {
         path: "/topics",
         name: "Topics",
-        component: () => import("../components/Topics.vue")
+        component: Topics
       },
       {
         path: "/test",
-        component: () => import("../components/Test/Test.vue")
+        component: Test
       }
     ]
   });

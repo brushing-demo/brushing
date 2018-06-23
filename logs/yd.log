@@ -267,6 +267,7 @@
     at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
     at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
     at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+<<<<<<< Updated upstream
 [2018-06-23T15:07:36.776] [ERROR] cheese - { Error: Cannot find module '../assets/images/target.png'
     at webpackMissingModule (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:260)
     at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:362)
@@ -344,3 +345,148 @@
     at renderStringNode$1 (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7602:5)
     at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7405:5)
     at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+=======
+[2018-06-23T15:48:53.659] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:48:54.904] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:49:18.779] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:49:30.830] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:49:31.421] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T16:16:36.947] [ERROR] cheese - ReferenceError: API_URL is not defined
+    at QuestionService.addQuestion (/home/bounlusin/Desktop/brushing/dist/services/QuestionService.js:55:51)
+    at QuestionController.add (/home/bounlusin/Desktop/brushing/dist/controllers/QuestionController.js:53:47)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-compose/index.js:42:32)
+[2018-06-23T16:28:51.290] [ERROR] cheese - TypeError: Cannot read property 'post' of undefined
+    at QuestionService.addQuestion (/home/bounlusin/Desktop/brushing/dist/services/QuestionService.js:54:33)
+    at QuestionController.add (/home/bounlusin/Desktop/brushing/dist/controllers/QuestionController.js:53:47)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-compose/index.js:42:32)
+[2018-06-23T16:34:11.047] [ERROR] cheese - ReferenceError: fetch is not defined
+    at QuestionService.addQuestion (/home/bounlusin/Desktop/brushing/dist/services/QuestionService.js:67:24)
+    at QuestionController.add (/home/bounlusin/Desktop/brushing/dist/controllers/QuestionController.js:53:47)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-compose/index.js:42:32)
+[2018-06-23T16:35:10.967] [ERROR] cheese - ReferenceError: fetch is not defined
+    at QuestionService.addQuestion (/home/bounlusin/Desktop/brushing/dist/services/QuestionService.js:67:24)
+    at QuestionController.add (/home/bounlusin/Desktop/brushing/dist/controllers/QuestionController.js:53:47)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-compose/index.js:42:32)
+[2018-06-23T16:44:02.375] [ERROR] cheese - TypeError: Cannot read property 'post' of undefined
+    at QuestionService.addQuestion (/home/bounlusin/Desktop/brushing/dist/services/QuestionService.js:54:33)
+    at QuestionController.add (/home/bounlusin/Desktop/brushing/dist/controllers/QuestionController.js:53:47)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-compose/index.js:42:32)
+[2018-06-23T16:46:41.028] [ERROR] cheese - TypeError: Cannot read property 'post' of undefined
+    at QuestionService.addQuestion (/home/bounlusin/Desktop/brushing/dist/services/QuestionService.js:54:33)
+    at QuestionController.add (/home/bounlusin/Desktop/brushing/dist/controllers/QuestionController.js:53:47)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-compose/index.js:42:32)
+[2018-06-23T16:50:47.414] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T16:50:48.857] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+    at Module.require (internal/modules/cjs/loader.js:598:17)
+    at require (internal/modules/cjs/helpers.js:11:18)
+    at IndexController.getIndex (/home/bounlusin/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/home/bounlusin/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+>>>>>>> Stashed changes
