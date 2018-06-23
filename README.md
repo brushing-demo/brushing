@@ -10,8 +10,4 @@ npm run client:server
 npm run server:dev
 npm run start:dev
 
-#启动项目同上
-npm run dev
-npm run client:server
-npm run start:dev
 

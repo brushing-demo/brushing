@@ -212,3 +212,58 @@
     at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
     at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
     at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T13:42:15.949] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-client-manifest.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:594:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:25)
+    at Module.require (internal/modules/cjs/loader.js:650:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at IndexController.getIndex (/Users/swan/Desktop/brushing/dist/controllers/IndexController.js:84:28)
+    at memberInvoker (/Users/swan/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T13:42:20.763] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-client-manifest.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:594:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:25)
+    at Module.require (internal/modules/cjs/loader.js:650:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at IndexController.getIndex (/Users/swan/Desktop/brushing/dist/controllers/IndexController.js:84:28)
+    at memberInvoker (/Users/swan/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T13:47:08.370] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:594:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:25)
+    at Module.require (internal/modules/cjs/loader.js:650:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at IndexController.getIndex (/Users/swan/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/Users/swan/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T13:47:12.168] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:594:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:25)
+    at Module.require (internal/modules/cjs/loader.js:650:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at IndexController.getIndex (/Users/swan/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/Users/swan/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T13:47:16.088] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:594:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:520:25)
+    at Module.require (internal/modules/cjs/loader.js:650:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at IndexController.getIndex (/Users/swan/Desktop/brushing/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/Users/swan/Desktop/brushing/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
