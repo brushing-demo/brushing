@@ -267,3 +267,36 @@
     at next (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
     at /Users/swan/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
     at dispatch (/Users/swan/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:07:36.776] [ERROR] cheese - { Error: Cannot find module '../assets/images/target.png'
+    at webpackMissingModule (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:260)
+    at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:362)
+    at Object../node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:1552:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/vue-style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:4:15)
+    at Object../node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:2490:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/Index.vue?:2:283)
+    at Module../src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:2691:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:07:43.563] [ERROR] cheese - { Error: Cannot find module '../assets/images/target.png'
+    at webpackMissingModule (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:260)
+    at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:362)
+    at Object../node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:1552:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/vue-style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:4:15)
+    at Object../node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:2490:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/Index.vue?:2:283)
+    at Module../src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:2691:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30) code: 'MODULE_NOT_FOUND' }
+[2018-06-23T15:08:37.270] [ERROR] cheese - { Error: Cannot find module '../assets/images/target.png'
+    at webpackMissingModule (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:260)
+    at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:7:362)
+    at Object../node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:1552:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/Index.vue?./node_modules/vue-style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib??vue-loader-options:4:15)
+    at Object../node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:2490:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/Index.vue?:2:283)
+    at Module../src/webapp/components/Index.vue?vue&type=style&index=0&lang=css (scripts/main.bundle.js:2691:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30) code: 'MODULE_NOT_FOUND' }

@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
-import HelloWorld from "../components/HelloWorld.vue";
-import About from "../components/About.vue";
+import Index from "../components/Index.vue";
+import BrushingList from "../components/BrushingList.vue";
 import Topics from "../components/Topics.vue";
 import Test from "../components/Test/Test.vue";
 
@@ -14,13 +14,13 @@ export function createRouter() {
     routes: [
       {
         path: "/",
-        name: "HelloWorld",
-        component: HelloWorld
+        name: "Index",
+        component: Index
       },
       {
-        path: "/about",
-        name: "About",
-        component: About
+        path: "/brushingList",
+        name: "BrushingList",
+        component: BrushingList
       },
       {
         path: "/topics",

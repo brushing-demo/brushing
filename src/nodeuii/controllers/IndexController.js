@@ -6,6 +6,7 @@ import fs from 'fs';
 import LRU from 'lru-cache';
 
 @route('/')
+@route('/brushingList')
 @route('/test')
 @route('/about')
 @route('/topics')
