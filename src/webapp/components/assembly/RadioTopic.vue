@@ -21,11 +21,41 @@
     </div>
 </template>
 <script>
-  export default {}
+  export default {
+    data() {
+      return {
+        pagesTitle: '收起答题卡',
+        isIndex: 0,  //pages当前页
+        isShow: true,
+        form: {
+          name: '',
+          region: '',
+          date1: '',
+          date2: '',
+          delivery: false,
+          type: [],
+          resource: '',
+          desc: ''
+        }
+      }
+    },
+    methods: {
+      pagesShowHandler() {
+        if (this.isShow == true) {
+          this.pagesTitle = '收起答题卡';
+        } else {
+          this.pagesTitle = '展开答题卡';
+        }
+        this.isShow = !this.isShow;
+      },
+      pagesGetHandler(index) {
+        console.log(index);
+        this.isIndex = index;
+      }
+    }
+  }
 </script>
 <style>
-   
-
     .el-radio + .el-radio {
         margin-left: 0;
     }

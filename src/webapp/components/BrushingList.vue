@@ -5,10 +5,9 @@
         </div>
         <div class="subject-main">
             <div class="subject-content">
-
+                <RadioTopic></RadioTopic>
             </div>
         </div>
-
         <div class="answer-sheet">
             <h3 @click="pagesShowHandler()">{{pagesTitle}}：<i
                     :class="{'el-icon-arrow-down':(isShow==true),'el-icon-arrow-up':(isShow==false)}"></i></h3>
@@ -20,12 +19,15 @@
                 </ul>
             </div>
         </div>
-
-
     </div>
 </template>
 <script>
+  import RadioTopic from '../components/assembly/RadioTopic.vue';
+
   export default {
+    components:{
+      RadioTopic
+    },
     data() {
       return {
         pagesTitle: '收起答题卡',
