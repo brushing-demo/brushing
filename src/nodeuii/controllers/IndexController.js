@@ -7,9 +7,7 @@ import LRU from 'lru-cache';
 
 @route('/')
 @route('/brushingList')
-@route('/test')
-@route('/about')
-@route('/topics')
+@route('/addTopics')
 export default class IndexController {
 
   constructor({indexService}) {

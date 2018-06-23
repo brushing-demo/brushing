@@ -5,7 +5,19 @@
         </div>
         <div class="subject-main">
             <div class="subject-content">
-                <RadioTopic></RadioTopic>
+                <h2>【 单选题 】</h2>
+                <div class="subject-question">
+                    下列哪个样式定义后,内联(非块状)元素可以定义宽度和高度
+                </div>
+                <el-form class="demo-ruleForm">
+                    <RadioTopic v-if="topicStype=='single_choice'"></RadioTopic>
+                    <CheckTopic v-else-if="topicStype=='multiple_choice'"></CheckTopic>
+
+                    <el-form-item class="text-right">
+                        <el-button type="danger" @click="openSubmitHandler">提交试卷</el-button>
+                        <el-button type="success" @click="pagesGetHandler(isIndex+1)">下一题</el-button>
+                    </el-form-item>
+                </el-form>
             </div>
         </div>
         <div class="answer-sheet">
@@ -23,16 +35,19 @@
 </template>
 <script>
   import RadioTopic from '../components/assembly/RadioTopic.vue';
+  import CheckTopic from '../components/assembly/CheckTopic.vue';
 
   export default {
-    components:{
-      RadioTopic
+    components: {
+      RadioTopic,
+      CheckTopic
     },
     data() {
       return {
         pagesTitle: '收起答题卡',
         isIndex: 0,  //pages当前页
         isShow: true,
+        topicStype: 'single_choice',     //题型
         form: {
           name: '',
           region: '',
@@ -46,6 +61,23 @@
       }
     },
     methods: {
+      openSubmitHandler(){
+        this.$confirm('提交试卷, 是否继续?', '提示', {
+          confirmButtonText: '确定',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }).then(() => {
+          this.$message({
+            type: 'success',
+            message: '提交成功!'
+          });
+        }).catch(() => {
+          this.$message({
+            type: 'info',
+            message: '已取消提交'
+          });
+        });
+      },
       pagesShowHandler() {
         if (this.isShow == true) {
           this.pagesTitle = '收起答题卡';

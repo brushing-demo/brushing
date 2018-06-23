@@ -27,7 +27,7 @@
     data() {
       return {
         currentDate: new Date()
-      };
+      }
     }
   }
 </script>
