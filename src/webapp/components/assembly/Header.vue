@@ -31,6 +31,11 @@
                             增加题目
                         </el-menu-item>
                     </router-link>
+                    <router-link to="/test">
+                        <el-menu-item index="4">
+                            增加题目测试
+                        </el-menu-item>
+                    </router-link>
                 </el-menu>
             </el-col>
             <el-col :xs="4" :sm="6" :md="4"><div class="grid-content bg-purple-light"></div></el-col>

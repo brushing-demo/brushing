@@ -34,18 +34,8 @@ export default class QuestionService {
     async addQuestion(data) {
         console.log("service", data);
         console.log(constance);
-        const options = {
-            method: "POST",
-            url: constance.API_URL + "/exam/question/add",
-            headers: {
-                "content-type": "application/x-www-form-urlencoded:charset=UTF-8"
-            },
-            data: qs.stringify(data)
-        };
-        console.log(options);
-        const result = axios(options)
+        const result = axios.post(constance.API_URL + '/exam/question/add', data)
             .then(res => {
-                console.log("11111111111111", res.data);
                 return res.data;
             })
             .catch(error => {

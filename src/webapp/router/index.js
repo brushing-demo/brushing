@@ -3,7 +3,7 @@ import Router from "vue-router";
 import Index from "../components/Index.vue";
 import BrushingList from "../components/BrushingList.vue";
 import AddTopics from "../components/AddTopics.vue";
-// import Test from "../components/Test/Test.vue";
+import Test from "../components/Test/Test.vue";
 
 Vue.use(Router);
 
