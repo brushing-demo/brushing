@@ -1,0 +1,93 @@
+[2018-06-20T16:12:58.434] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-20T16:12:59.016] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-20T16:13:01.518] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:83:26)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
+[2018-06-20T16:22:38.430] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:85:35)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:351:31)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html' }
+[2018-06-20T16:22:40.543] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:85:35)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:351:31)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html' }
+[2018-06-20T16:40:13.864] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:85:35)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:351:31)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html' }
+[2018-06-20T16:40:16.602] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fs.readFileSync (fs.js:551:33)
+    at IndexController.getIndex (/Users/swan/Desktop/vue-ssr-demo/dist/controllers/IndexController.js:85:35)
+    at memberInvoker (/Users/swan/Desktop/vue-ssr-demo/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/swan/Desktop/vue-ssr-demo/node_modules/koa-router/lib/router.js:351:31)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/swan/Desktop/vue-ssr-demo/dist/assets/index.html' }
