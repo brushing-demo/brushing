@@ -13,4 +13,11 @@ export default class QuestionController {
     const result = await this.questionService.addQuestion(ctx.request.body);
     ctx.body = result;
   }
+
+  @POST()
+  @route("/")
+  async list(ctx, next){
+    const result = await this.questionService.list(ctx.request.body);
+    ctx.body = result;
+  }
 }
