@@ -490,3 +490,192 @@
     at /home/bounlusin/Desktop/brushing/node_modules/koa-router/lib/router.js:346:16
     at dispatch (/home/bounlusin/Desktop/brushing/node_modules/koa-router/node_modules/koa-compose/index.js:44:32) code: 'MODULE_NOT_FOUND' }
 >>>>>>> Stashed changes
+[2018-06-24T10:15:40.558] [ERROR] cheese - Error: Module parse failed: Unexpected token (69:16)
+You may need an appropriate loader to handle this file type.
+|     onSubmit() {
+|       console.log(this.form.answer);
+>       let arr = ...this.form.answer
+|       console.log(arr);
+| 
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2332:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:2:152)
+    at Module../src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2767:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:3:96)
+    at Module../src/webapp/components/AddTopics.vue (scripts/main.bundle.js:2755:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at Module.eval (webpack:///./src/webapp/router/index.js?:7:83)
+[2018-06-24T10:17:28.205] [ERROR] cheese - Error: Module parse failed: Unexpected token (70:38)
+You may need an appropriate loader to handle this file type.
+|       console.log(this.form.answer);
+| 
+>       console.log(...this.form.answer typeof);
+| 
+|       /*let data = {
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2332:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:2:152)
+    at Module../src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2767:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:3:96)
+    at Module../src/webapp/components/AddTopics.vue (scripts/main.bundle.js:2755:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at Module.eval (webpack:///./src/webapp/router/index.js?:7:83)
+[2018-06-24T10:17:30.884] [ERROR] cheese - Error: Module parse failed: Unexpected token (70:38)
+You may need an appropriate loader to handle this file type.
+|       console.log(this.form.answer);
+| 
+>       console.log(...this.form.answer typeof);
+| 
+|       /*let data = {
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2332:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:2:152)
+    at Module../src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2767:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:3:96)
+    at Module../src/webapp/components/AddTopics.vue (scripts/main.bundle.js:2755:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at Module.eval (webpack:///./src/webapp/router/index.js?:7:83)
+[2018-06-24T10:18:11.468] [ERROR] cheese - Error: Module parse failed: Unexpected keyword 'this' (69:20)
+You may need an appropriate loader to handle this file type.
+|     onSubmit() {
+|       console.log(this.form.answer);
+>       let arr = (...this.form.answer);
+|       console.log(arr);
+| 
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib??vue-loader-options:1:7)
+    at Object../node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2332:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:2:152)
+    at Module../src/webapp/components/AddTopics.vue?vue&type=script&lang=js (scripts/main.bundle.js:2767:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at eval (webpack:///./src/webapp/components/AddTopics.vue?:3:96)
+    at Module../src/webapp/components/AddTopics.vue (scripts/main.bundle.js:2755:1)
+    at __webpack_require__ (scripts/main.bundle.js:21:30)
+    at Module.eval (webpack:///./src/webapp/router/index.js?:7:83)
+[2018-06-24T10:44:54.008] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:44:55.891] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:44:58.499] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:45:01.665] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:50:11.314] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:50:32.447] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:50:34.425] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T10:51:07.604] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T11:03:16.918] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T11:03:20.615] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)
+[2018-06-24T11:03:52.840] [ERROR] cheese - TypeError: Cannot read property 'qtype' of undefined
+    at Proxy.render (webpack:///./src/webapp/components/AddTopics.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options:49:37)
+    at VueComponent.Vue._render (webpack:///./node_modules/vue/dist/vue.runtime.esm.js?:4532:22)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7521:25)
+    at renderComponent (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7491:5)
+    at RenderContext.renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7407:5)
+    at RenderContext.next (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2428:14)
+    at cachedWrite (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:2287:9)
+    at renderElement (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7645:5)
+    at renderNode (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7409:5)
+    at renderComponentInner (/Users/swan/Desktop/brushing/node_modules/vue-server-renderer/build.js:7527:3)

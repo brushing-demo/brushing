@@ -1,12 +1,15 @@
 <template>
     <div class="radio-topic">
         <el-radio-group v-model="form.resource">
-            <el-radio label="线下场地免费"></el-radio>
+            <el-radio v-for="type in form.types" :label="type.id">{{type.val}}</el-radio>
+            <!--<el-radio label="线下场地免费"></el-radio>
             <el-radio label="线下场地免费1"></el-radio>
             <el-radio label="线下场地免费2"></el-radio>
-            <el-radio label="线下场地免费3"></el-radio>
+            <el-radio label="线下场地免费3"></el-radio>-->
         </el-radio-group>
+
     </div>
+
 </template>
 <script>
   export default {
@@ -21,13 +24,16 @@
           date1: '',
           date2: '',
           delivery: false,
-          type: [],
+          types: [{id:1,val:'aaa'},{id:2,val:'bbb'}],
           resource: '',
           desc: ''
         }
       }
     },
     methods: {
+        btn(){
+          console.log(this.form);
+        },
       pagesShowHandler() {
         if (this.isShow == true) {
           this.pagesTitle = '收起答题卡';

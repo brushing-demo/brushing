@@ -87,8 +87,14 @@
         this.isShow = !this.isShow;
       },
       pagesGetHandler(index) {
+        if (this.topicStype == 'multiple_choice'){
+          this.topicStype = 'single_choice';
+        }else{
+          this.topicStype = 'multiple_choice';
+        }
+
         console.log(index);
-        this.isIndex = index;
+//        this.isIndex = index;
       }
     }
   }
