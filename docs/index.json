@@ -1,0 +1,1220 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "nodeuii/.external-ecmascript.js",
+    "static": true,
+    "longname": "nodeuii/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "nodeuii/app.js",
+    "content": "import Koa from \"koa\";\nimport serve from \"koa-static\";\nimport log4js from 'log4js';\nimport configure from \"./config\";\nimport koaBody from \"koa-body\";\nimport errorHandler from \"./middwares/errorHandler\";\nconst { createContainer, Lifetime } = require('awilix');\nconst { loadControllers, scopePerRequest } = require('awilix-koa');\nconst app = new Koa();\n//创建IOC的容器\nconst container = createContainer();\n//每一次的请求都是一个 new model\napp.use(scopePerRequest(container));\n\napp.use(koaBody());\n//装载所有的models 并将services代码注入到controllers\ncontainer.loadModules([__dirname + '/services/*.js'], {\n  formatName: 'camelCase',\n  resolverOptions: {\n    lifetime: Lifetime.SCOPED\n  }\n});\nlog4js.configure({\n  appenders: { cheese: { type: 'file', filename: './logs/yd.log' } },\n  categories: { default: { appenders: ['cheese'], level: 'error' } }\n});\n//此处除了配置config开发阶段还有/__webpack_hmr\nconst config = configure(app);\nconst logger = log4js.getLogger('cheese');\nerrorHandler.error(app, logger);\n//注册所有的路由\napp.use(loadControllers(__dirname + '/controllers/*.js', { cwd: __dirname }));\napp.use(serve(config.staticDir)); // 静态资源文件\napp.listen(config.port, () => {\n  console.log(`ydSystem listening on ${config.port}`);\n});\nmodule.exports = app;\n",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/app.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "createContainer",
+    "memberof": "nodeuii/app.js",
+    "static": true,
+    "longname": "nodeuii/app.js~createContainer",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "loadControllers",
+    "memberof": "nodeuii/app.js",
+    "static": true,
+    "longname": "nodeuii/app.js~loadControllers",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "nodeuii/app.js",
+    "static": true,
+    "longname": "nodeuii/app.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "container",
+    "memberof": "nodeuii/app.js",
+    "static": true,
+    "longname": "nodeuii/app.js~container",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "nodeuii/app.js",
+    "static": true,
+    "longname": "nodeuii/app.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "logger",
+    "memberof": "nodeuii/app.js",
+    "static": true,
+    "longname": "nodeuii/app.js~logger",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "nodeuii/config/index.js",
+    "content": "import _ from 'lodash';\nimport path from 'path';\nlet config = {\n  \"viewDir\": path.join(__dirname, '..', 'views'),\n  \"staticDir\": path.join(__dirname, '..', 'assets'),\n  \"env\": process.env.NODE_ENV //\"development\" 、\"production\"\n};\n\nconst init = (app) => {\n  //开发环境下\n  if (process.env.NODE_ENV == \"development\") {\n    const localConfig = {\n      port: 8081\n    };\n    config = _.extend(config, localConfig);\n  }\n  //上线环境下\n  if (process.env.NODE_ENV == \"production\") {\n    const proConfig = {\n      port: 8081\n    };\n    config = _.extend(config, proConfig);\n  }\n  return config;\n}\n\nexport default app => init(app);\n",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/config/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "config",
+    "memberof": "nodeuii/config/index.js",
+    "static": true,
+    "longname": "nodeuii/config/index.js~config",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/config/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"viewDir\": *, \"staticDir\": *, \"env\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "init",
+    "memberof": "nodeuii/config/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "nodeuii/config/index.js~init",
+    "access": "public",
+    "export": false,
+    "importPath": "vue-ssr-demo/nodeuii/config/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "app",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "index",
+    "memberof": "nodeuii/config/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "nodeuii/config/index.js~index",
+    "access": "public",
+    "export": true,
+    "importPath": "vue-ssr-demo/nodeuii/config/index.js",
+    "importStyle": "index",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [
+      {
+        "name": "app",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "nodeuii/constance/index.js",
+    "content": "export default {\n  // API_URL: \"http://192.168.0.32:5000\"\n  API_URL: \"https://www.easy-mock.com/mock/5b23bc6b10d7c33493a10586\"\n};\n",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/constance/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "nodeuii/middwares/errorHandler.js",
+    "content": "const errorHandler = {\n  error(app, logger) {\n    app.use(async (ctx, next) => {\n      try {\n        await next();\n      }\n      catch (error) {\n        logger.error(error);\n        ctx.status = error.status || 500;\n        ctx.body = 'error page';\n      }\n    });\n\n    app.use(async (ctx, next) => {\n        await next();\n        if (404 != ctx.status)return;\n        ctx.status = 404;\n        ctx.body = '<script type=\"text/javascript\" src=\"//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js\" homePageName=\"返回宝贝回家\" homePageUrl=\"http://www.baidu.com\" charset=\"utf-8\"></script>';\n    });\n\n  }\n};\nexport default errorHandler;",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/middwares/errorHandler.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "errorHandler",
+    "memberof": "nodeuii/middwares/errorHandler.js",
+    "static": true,
+    "longname": "nodeuii/middwares/errorHandler.js~errorHandler",
+    "access": "public",
+    "export": true,
+    "importPath": "vue-ssr-demo/nodeuii/middwares/errorHandler.js",
+    "importStyle": "errorHandler",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"error\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "nodeuii/services/IndexService.js",
+    "content": "/**\n * @fileOverview 实现index数据模型\n * @author swan313@126.com\n */\n\nexport default class IndexService {\n\n  constructor() {\n\n  }\n\n  init(ctx) {\n       \t\n  }\n}\n\n\n",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/services/IndexService.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "IndexService",
+    "memberof": "nodeuii/services/IndexService.js",
+    "static": true,
+    "longname": "nodeuii/services/IndexService.js~IndexService",
+    "access": "public",
+    "export": true,
+    "importPath": "vue-ssr-demo/nodeuii/services/IndexService.js",
+    "importStyle": "IndexService",
+    "description": "",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@fileOverview",
+        "tagValue": "实现index数据模型"
+      },
+      {
+        "tagName": "@author",
+        "tagValue": "swan313@126.com"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 64,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "nodeuii/services/IndexService.js~IndexService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/IndexService.js~IndexService#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "init",
+    "memberof": "nodeuii/services/IndexService.js~IndexService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/IndexService.js~IndexService#init",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "ctx",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "nodeuii/services/QuestionService.js",
+    "content": "import axios from \"axios\";\nimport qs from \"qs\";\nimport constance from \"../constance\";\n\n/**\n * @fileOverview 实现question数据模型\n * @author bounlusin@163.com\n */\n\n/**\n * @description\n * @class QuestionService\n */\nexport default class QuestionService {\n  /**\n   * @constructor\n   * @param{string}app  koa2上下文环境\n   */\n  constructor(app) {\n  }\n\n  /**\n   * 添加题目\n   * @param data 请求参数\n   * @returns res 返回结果，json格式\n   * {\n                'result':{\n                'uid':123,//当前用户id，数字\n                'qid':123,//题目id，数字\n                },\n                'status':0,     //选项id，数字。处理成功为0\n                'msg':'状态描述' //字符串，UrlEncode编码\n                }\n   */\n  async addQuestion(data) {\n    console.log(\"service\", data);\n    console.log(constance);\n    const result = axios\n        .post(constance.API_URL + \"/exam/question/add\", data)\n        .then(res => {\n          return res.data;\n        })\n        .catch(error => {\n          console.log(error);\n          return {\n            error: true\n          };\n        });\n\n    return result;\n  }\n\n  /**\n   * 查询题目列表\n   * @param data 请求参数\n   * @returns res 返回结果，json格式\n   * {\n                'result':{\n                'uid':123,//当前用户id，数字\n                'qid':123,//题目id，数字\n                'list':[{},{},{}],\n                },\n                'status':0,     //选项id，数字。处理成功为0\n                'msg':'状态描述' //字符串，UrlEncode编码\n                }\n   */\n  async list(data) {\n    console.log(\"service\", data);\n    console.log(constance);\n    const result = axios\n        .post(constance.API_URL + \"/exam/question/list\", data)\n        .then(res => {\n          return res.data;\n        })\n        .catch(error => {\n          console.log(error);\n          return {\n            msg: '',\n            result: {},\n            status: -1\n          };\n        });\n\n    return result;\n  }\n}",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/services/QuestionService.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "class",
+    "name": "QuestionService",
+    "memberof": "nodeuii/services/QuestionService.js",
+    "static": true,
+    "longname": "nodeuii/services/QuestionService.js~QuestionService",
+    "access": "public",
+    "export": true,
+    "importPath": "vue-ssr-demo/nodeuii/services/QuestionService.js",
+    "importStyle": "QuestionService",
+    "description": "",
+    "lineNumber": 14,
+    "unknown": [
+      {
+        "tagName": "@description",
+        "tagValue": ""
+      },
+      {
+        "tagName": "@class",
+        "tagValue": "QuestionService"
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 68,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "nodeuii/services/QuestionService.js~QuestionService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/QuestionService.js~QuestionService#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 19,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": "@param{string}app  koa2上下文环境"
+      }
+    ]
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "addQuestion",
+    "memberof": "nodeuii/services/QuestionService.js~QuestionService",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "nodeuii/services/QuestionService.js~QuestionService#addQuestion",
+    "access": "public",
+    "description": "添加题目",
+    "lineNumber": 35,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "res 返回结果，json格式\n{\n'result':{\n'uid':123,//当前用户id，数字\n'qid':123,//题目id，数字\n},\n'status':0,     //选项id，数字。处理成功为0\n'msg':'状态描述' //字符串，UrlEncode编码\n}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "请求参数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "res 返回结果，json格式\n{\n'result':{\n'uid':123,//当前用户id，数字\n'qid':123,//题目id，数字\n},\n'status':0,     //选项id，数字。处理成功为0\n'msg':'状态描述' //字符串，UrlEncode编码\n}"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "list",
+    "memberof": "nodeuii/services/QuestionService.js~QuestionService",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "nodeuii/services/QuestionService.js~QuestionService#list",
+    "access": "public",
+    "description": "查询题目列表",
+    "lineNumber": 67,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "res 返回结果，json格式\n{\n'result':{\n'uid':123,//当前用户id，数字\n'qid':123,//题目id，数字\n'list':[{},{},{}],\n},\n'status':0,     //选项id，数字。处理成功为0\n'msg':'状态描述' //字符串，UrlEncode编码\n}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "请求参数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "res 返回结果，json格式\n{\n'result':{\n'uid':123,//当前用户id，数字\n'qid':123,//题目id，数字\n'list':[{},{},{}],\n},\n'status':0,     //选项id，数字。处理成功为0\n'msg':'状态描述' //字符串，UrlEncode编码\n}"
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "nodeuii/services/TestService.js",
+    "content": "/**\n * @fileOverview 实现Test数据模型\n * @author swan313@126.com\n */\n\n/**\n * TestModel类，生成一段异步的数据\n * @class\n */\nexport default class TestService {\n  /**\n   * @constructor\n   * @param{string}app  koa2上下文环境\n   */\n  constructor(app){\n\n  }\n\n  /**\n   * 获取数据的 TestModel API\n   * @returns {Promise} 返回异步的处理结果\n   * @example\n   * return new Promise\n   * getQQ\n   */\n  getQQ(){\n    return new Promise((resolve, reject)=>{\n      setTimeout(function () {\n        resolve('hello indexAction');\n      },1000)\n    })\n  }\n\n}\n\n\n",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/services/TestService.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "class",
+    "name": "TestService",
+    "memberof": "nodeuii/services/TestService.js",
+    "static": true,
+    "longname": "nodeuii/services/TestService.js~TestService",
+    "access": "public",
+    "export": true,
+    "importPath": "vue-ssr-demo/nodeuii/services/TestService.js",
+    "importStyle": "TestService",
+    "description": "TestModel类，生成一段异步的数据",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": ""
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 73,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "nodeuii/services/TestService.js~TestService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/TestService.js~TestService#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 15,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": "@param{string}app  koa2上下文环境"
+      }
+    ]
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "getQQ",
+    "memberof": "nodeuii/services/TestService.js~TestService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/TestService.js~TestService#getQQ",
+    "access": "public",
+    "description": "获取数据的 TestModel API",
+    "examples": [
+      "return new Promise\ngetQQ"
+    ],
+    "lineNumber": 26,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise} 返回异步的处理结果"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "返回异步的处理结果"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "nodeuii/services/UserService.js",
+    "content": "/**\n * @fileOverview 实现Index数据模型\n * @author swan313@126.com\n */\n\n/**\n * IndexModel类，生成一段异步的数据\n * @class\n */\nexport default class UserService {\n  /**\n   * @constructor\n   * @param{string}app  koa2上下文环境\n   */\n  constructor(app){\n\n  }\n\n  /**\n   * 获取数据的API\n   * @returns {Promise} 返回异步的处理结果\n   * @example\n   * return new Promise\n   * getData\n   */\n  getData(){\n    return new Promise((resolve, reject)=>{\n      /*setTimeout(function () {\n        resolve('hello indexAction');\n      },1000)*/\n      resolve([{title:'koa',title1:'webpack',title2:'vue'}]);\n    })\n  }\n\n}\n\n\n",
+    "static": true,
+    "longname": "/Users/swan/Desktop/brushing/src/nodeuii/services/UserService.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "class",
+    "name": "UserService",
+    "memberof": "nodeuii/services/UserService.js",
+    "static": true,
+    "longname": "nodeuii/services/UserService.js~UserService",
+    "access": "public",
+    "export": true,
+    "importPath": "vue-ssr-demo/nodeuii/services/UserService.js",
+    "importStyle": "UserService",
+    "description": "IndexModel类，生成一段异步的数据",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@class",
+        "tagValue": ""
+      }
+    ],
+    "interface": false
+  },
+  {
+    "__docId__": 77,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "nodeuii/services/UserService.js~UserService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/UserService.js~UserService#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 15,
+    "unknown": [
+      {
+        "tagName": "@constructor",
+        "tagValue": "@param{string}app  koa2上下文环境"
+      }
+    ]
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "getData",
+    "memberof": "nodeuii/services/UserService.js~UserService",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "nodeuii/services/UserService.js~UserService#getData",
+    "access": "public",
+    "description": "获取数据的API",
+    "examples": [
+      "return new Promise\ngetData"
+    ],
+    "lineNumber": 26,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise} 返回异步的处理结果"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "返回异步的处理结果"
+    },
+    "params": []
+  },
+  {
+    "kind": "index",
+    "content": "# brushing\n刷题系统\n\n# install dependencies\nnpm install\n\n#serve with hot reload at localhost:8081\nnpm run client:dev\nnpm run client:server\nnpm run server:dev\nnpm run start:dev\n\n\n#生成docs接口文档\nnpm run docs",
+    "longname": "/Users/swan/Desktop/brushing/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"vue-ssr-demo\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"\",\n    \"clear\": \"rimraf dist\",\n    \"dev\": \"\",\n    \"client:dev\": \"npm run clear && webpack --mode development\",\n    \"client:prod\": \"webpack --mode production\",\n    \"client:server\": \"webpack --mode development --env server\",\n    \"server:dev\": \"gulp\",\n    \"server:prod\": \"cross-env NODE_ENV=production gulp\",\n    \"start:dev\": \"cross-env NODE_ENV=development supervisor ./dist/app.js  \",\n    \"server:lint\": \"cross-env NODE_ENV=lint gulp\",\n    \"docs\": \"esdoc .esdoc.json\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"devDependencies\": {\n    \"babel-core\": \"^6.26.3\",\n    \"babel-loader\": \"^7.1.4\",\n    \"babel-plugin-transform-decorators-legacy\": \"^1.3.5\",\n    \"babel-plugin-transform-object-rest-spread\": \"^6.26.0\",\n    \"babel-preset-env\": \"^1.7.0\",\n    \"browser-sync\": \"^2.24.5\",\n    \"css-loader\": \"^0.28.11\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"file-loader\": \"^1.1.11\",\n    \"gulp\": \"^3.9.1\",\n    \"gulp-babel\": \"^7.0.1\",\n    \"gulp-livereload\": \"^3.8.1\",\n    \"gulp-rollup\": \"^2.16.2\",\n    \"gulp-sequence\": \"^1.0.0\",\n    \"gulp-watch\": \"^5.0.0\",\n    \"html-webpack-plugin\": \"^3.2.0\",\n    \"jsdoc\": \"^3.5.5\",\n    \"rollup-plugin-replace\": \"^2.0.0\",\n    \"vue-loader\": \"^15.2.4\",\n    \"vue-server-renderer\": \"^2.5.16\",\n    \"vue-style-loader\": \"^4.1.0\",\n    \"vue-template-compiler\": \"^2.5.16\",\n    \"webpack\": \"^4.12.0\",\n    \"webpack-cli\": \"^3.0.8\",\n    \"webpack-merge\": \"^4.1.3\"\n  },\n  \"dependencies\": {\n    \"awilix\": \"^3.0.8\",\n    \"awilix-koa\": \"^2.1.1\",\n    \"axios\": \"^0.18.0\",\n    \"cross-env\": \"^5.2.0\",\n    \"element-ui\": \"^2.4.1\",\n    \"koa\": \"^2.5.1\",\n    \"koa-body\": \"^4.0.3\",\n    \"koa-static\": \"^4.0.3\",\n    \"log4js\": \"^2.9.0\",\n    \"vue\": \"^2.5.16\",\n    \"vue-router\": \"^3.0.1\",\n    \"vuex\": \"^3.0.1\"\n  }\n}\n",
+    "longname": "/Users/swan/Desktop/brushing/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

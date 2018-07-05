@@ -15,7 +15,7 @@ export default class QuestionController {
   }
 
   @POST()
-  @route("/")
+  @route("/list")
   async list(ctx, next){
     const result = await this.questionService.list(ctx.request.body);
     ctx.body = result;

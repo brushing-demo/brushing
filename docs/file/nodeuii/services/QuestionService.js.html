@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">nodeuii/services/QuestionService.js | vue-ssr-demo</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#config">config</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#middwares">middwares</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-errorHandler">errorHandler</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#services">services</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/nodeuii/services/IndexService.js~IndexService.html">IndexService</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/nodeuii/services/QuestionService.js~QuestionService.html">QuestionService</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/nodeuii/services/TestService.js~TestService.html">TestService</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/nodeuii/services/UserService.js~UserService.html">UserService</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">nodeuii/services/QuestionService.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import axios from &quot;axios&quot;;
+import qs from &quot;qs&quot;;
+import constance from &quot;../constance&quot;;
+
+/**
+ * @fileOverview &#x5B9E;&#x73B0;question&#x6570;&#x636E;&#x6A21;&#x578B;
+ * @author bounlusin@163.com
+ */
+
+/**
+ * @description
+ * @class QuestionService
+ */
+export default class QuestionService {
+  /**
+   * @constructor
+   * @param{string}app  koa2&#x4E0A;&#x4E0B;&#x6587;&#x73AF;&#x5883;
+   */
+  constructor(app) {
+  }
+
+  /**
+   * &#x6DFB;&#x52A0;&#x9898;&#x76EE;
+   * @param data &#x8BF7;&#x6C42;&#x53C2;&#x6570;
+   * @returns res &#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF0C;json&#x683C;&#x5F0F;
+   * {
+                &apos;result&apos;:{
+                &apos;uid&apos;:123,//&#x5F53;&#x524D;&#x7528;&#x6237;id&#xFF0C;&#x6570;&#x5B57;
+                &apos;qid&apos;:123,//&#x9898;&#x76EE;id&#xFF0C;&#x6570;&#x5B57;
+                },
+                &apos;status&apos;:0,     //&#x9009;&#x9879;id&#xFF0C;&#x6570;&#x5B57;&#x3002;&#x5904;&#x7406;&#x6210;&#x529F;&#x4E3A;0
+                &apos;msg&apos;:&apos;&#x72B6;&#x6001;&#x63CF;&#x8FF0;&apos; //&#x5B57;&#x7B26;&#x4E32;&#xFF0C;UrlEncode&#x7F16;&#x7801;
+                }
+   */
+  async addQuestion(data) {
+    console.log(&quot;service&quot;, data);
+    console.log(constance);
+    const result = axios
+        .post(constance.API_URL + &quot;/exam/question/add&quot;, data)
+        .then(res =&gt; {
+          return res.data;
+        })
+        .catch(error =&gt; {
+          console.log(error);
+          return {
+            error: true
+          };
+        });
+
+    return result;
+  }
+
+  /**
+   * &#x67E5;&#x8BE2;&#x9898;&#x76EE;&#x5217;&#x8868;
+   * @param data &#x8BF7;&#x6C42;&#x53C2;&#x6570;
+   * @returns res &#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#xFF0C;json&#x683C;&#x5F0F;
+   * {
+                &apos;result&apos;:{
+                &apos;uid&apos;:123,//&#x5F53;&#x524D;&#x7528;&#x6237;id&#xFF0C;&#x6570;&#x5B57;
+                &apos;qid&apos;:123,//&#x9898;&#x76EE;id&#xFF0C;&#x6570;&#x5B57;
+                &apos;list&apos;:[{},{},{}],
+                },
+                &apos;status&apos;:0,     //&#x9009;&#x9879;id&#xFF0C;&#x6570;&#x5B57;&#x3002;&#x5904;&#x7406;&#x6210;&#x529F;&#x4E3A;0
+                &apos;msg&apos;:&apos;&#x72B6;&#x6001;&#x63CF;&#x8FF0;&apos; //&#x5B57;&#x7B26;&#x4E32;&#xFF0C;UrlEncode&#x7F16;&#x7801;
+                }
+   */
+  async list(data) {
+    console.log(&quot;service&quot;, data);
+    console.log(constance);
+    const result = axios
+        .post(constance.API_URL + &quot;/exam/question/list&quot;, data)
+        .then(res =&gt; {
+          return res.data;
+        })
+        .catch(error =&gt; {
+          console.log(error);
+          return {
+            msg: &apos;&apos;,
+            result: {},
+            status: -1
+          };
+        });
+
+    return result;
+  }
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

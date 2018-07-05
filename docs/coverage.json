@@ -1,0 +1,58 @@
+{
+  "coverage": "47.82%",
+  "expectCount": 23,
+  "actualCount": 11,
+  "files": {
+    "nodeuii/app.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        8,
+        9,
+        11,
+        28,
+        29
+      ]
+    },
+    "nodeuii/config/index.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        9,
+        27
+      ]
+    },
+    "nodeuii/middwares/errorHandler.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "nodeuii/services/IndexService.js": {
+      "expectCount": 3,
+      "actualCount": 1,
+      "undocumentLines": [
+        8,
+        12
+      ]
+    },
+    "nodeuii/services/QuestionService.js": {
+      "expectCount": 4,
+      "actualCount": 4,
+      "undocumentLines": []
+    },
+    "nodeuii/services/TestService.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "nodeuii/services/UserService.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    }
+  }
+}

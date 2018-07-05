@@ -11,3 +11,5 @@ npm run server:dev
 npm run start:dev
 
 
+#生成docs接口文档
+npm run docs

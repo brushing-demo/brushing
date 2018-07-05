@@ -1,46 +1,24 @@
 <template>
     <div class="radio-topic">
         <el-form-item prop="resource">
-            <el-checkbox-group v-model="form.type">
-                <el-checkbox label="美食/餐厅线上活动" name="type"></el-checkbox>
-                <el-checkbox label="地推活动" name="type"></el-checkbox>
-                <el-checkbox label="线下主题活动" name="type"></el-checkbox>
-                <el-checkbox label="单纯品牌曝光" name="type"></el-checkbox>
+            <el-checkbox-group v-model="resourceArr" :change="setDataToParent()" size="small">
+                <el-checkbox v-for="type in data" :label="type.id">{{type.option}}</el-checkbox>
             </el-checkbox-group>
         </el-form-item>
     </div>
 </template>
 <script>
   export default {
+    props: ['data'],
     data() {
       return {
-        pagesTitle: '收起答题卡',
-        isIndex: 0,  //pages当前页
-        isShow: true,
-        form: {
-          name: '',
-          region: '',
-          date1: '',
-          date2: '',
-          delivery: false,
-          type: [],
-          resource: '',
-          desc: ''
-        }
+        resourceArr: []
       }
     },
     methods: {
-      pagesShowHandler() {
-        if (this.isShow == true) {
-          this.pagesTitle = '收起答题卡';
-        } else {
-          this.pagesTitle = '展开答题卡';
-        }
-        this.isShow = !this.isShow;
-      },
-      pagesGetHandler(index) {
-        console.log(index);
-        this.isIndex = index;
+      setDataToParent() {
+//        console.log(this.resourceArr);
+        this.$emit('listenToChildEvent', this.resourceArr);
       }
     }
   }

@@ -46,7 +46,7 @@ gulp.task('bundleconfig', () => {
       .pipe(gulp.dest('./dist'));
 });
 
-let _task = ["builddev"];
+let _task = ["builddev","browser-sync"];
 if (process.env.NODE_ENV == 'production') {
   _task = gulpSequence(['buildprod', 'bundleconfig']);
 }
